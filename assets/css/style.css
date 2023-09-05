@@ -1,0 +1,75 @@
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    justify-content: stretch;
+}
+
+h1 {
+    margin: auto;
+
+}
+
+.bg {
+    background-image: url("assets/images/domestic-dog_thumb_square.webp");
+    height: 100%;
+    background-color: darkgray;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/* nav bar items */
+
+.nav-bar {
+    background-color: #ffffff;
+    top: 0%;
+    text-align: center;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.left-nav {
+    justify-content: flex-start;
+    display: flex;
+}
+
+.nav-bar a {
+    color: #282A3A;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 15px;
+    margin-left: 15px;
+    padding: auto;
+}
+
+.nav-bar a:hover {
+    color: #C69749;
+    background-color: #282A3A;
+    padding: auto;
+}
+
+.logo {
+    height: 50px;
+    margin: 5px 25px;
+
+}
+
+.tagline {
+    display: flex;
+    background-color: red;
+}
