@@ -10,6 +10,10 @@ html {
     padding: 0;
 }
 
+h2 {
+  margin: auto;
+}
+
 #logo {
 width: 50px;
 height:50px;
@@ -24,7 +28,10 @@ height:50px;
   font-size: 1.15rem;
   font-weight: bold;
   padding: 0;
+}
 
+.home {
+  cursor: pointer;
 }
 
 .nav-ul {
@@ -49,9 +56,11 @@ height:50px;
 }
 
 .nav-li a:hover {
-  background-color: #111;
+  background-color: black;
   color: #FF8C00;
 }
+
+
 
 .logo-text {
   padding: 0;
@@ -156,7 +165,7 @@ html {
   .remote-reason {
     width: 50%;
     padding: 20px 50px;
-    align-items: center;
+    text-align: center;
   }
 
   .reason-box {
