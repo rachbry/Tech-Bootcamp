@@ -10,63 +10,67 @@ html {
     padding: 0;
 }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin:0;
-  padding: 20px 2%;
-  background-color: #FF8C00;
-}
-
-li a {
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: white;
-  text-decoration: none;
+#logo {
+width: 50px;
+height:50px;
 }
 
 .logo {
-  cursor: pointer;
-  height: 75px;
+  float: left;
+  margin: auto 20px;
 }
 
-.nav-links {
-  list-style: none;
-}
-
-.nav-links li {
-  display: inline-block;
-  padding: 0 20px;
-}
-
-.nav-links li a {
-  transition: all 0.3s ease 0s;
-}
-
-.nav-links li a:hover {
-  transition: all 0.3s ease 0s;
-  color: blue;
-  background-color: green;
+.logo-text {
+  font-size: 1.15rem;
+  font-weight: bold;
+  padding: 0;
 
 }
+
+.nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FF8C00;
+}
+
+.nav-li {
+  float: right;
+}
+
+.nav-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 16px;
+  margin: auto;
+  text-decoration: none;
+}
+
+.nav-li a:hover {
+  background-color: #111;
+  color: #FF8C00;
+}
+
+.logo-text {
+  padding: 0;
+}
+
 
 h1 {
     margin: auto;
     font-size: 2rem;
 }
 
-h2 {
-    margin: auto;
-    padding:20px;
-}
+
 
 hr {
-    width: 5%;
+    width: 3%;
     border-style: dotted none none;
-    border-width: 10px;
+    border-width: 5px;
     border-color: #FF8C00;
-    opacity: 50%;
+    opacity: 40%;
 }
 
 body,
@@ -140,7 +144,7 @@ html {
     list-style: none; /* Remove default bullets */
   }
   
-  ul li::before {
+  .remote-text ul li::before {
     content: "\2023";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
     color: #FF8C00; /* Change the color */
     font-weight: bold; /* If you want it to be bold */
